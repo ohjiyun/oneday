@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>여행 블로그</title>
+</head>
+<body>
+    <header>
+        <h1>여행 블로그</h1>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">여행지 추천</a></li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slider-container">
+            <div class="slider-content">
+                <div class="slide">
+                    <img src="myImg/trip1.jpg" alt="이미지 1">
+                </div>
+                <div class="slide">
+                    <img src="myImg/trip2.jpg" alt="이미지 2">
+                </div>
+                <div class="slide">
+                    <img src="myImg/trip3.jpg" alt="이미지 3">
+                </div>
+                <!-- 추가 이미지 슬라이드를 위해 위 코드를 복사하여 붙여넣기하세요. -->
+            </div>
+        </div>
+        <form id="postForm">
+            <input type="text" id="postInput" placeholder="게시글을 입력하세요">
+            <button type="submit">게시</button>
+        </form>
+        <ul id="postList">
+            <!-- 게시글이 여기에 추가됩니다. -->
+        </ul>
+    <section class="content">
+        <aside class="sidebar">
+            <h2>접속 중인 사용자</h2>
+            <ul id="user-list">
+                <!-- JavaScript로 동적으로 아이디 목록을 추가합니다. -->
+            </ul>
+        </aside>
+        <main>
+            <!-- ... 블로그 포스트들을 표시하는 내용 ... -->
+        </main>
+    </section>
+    <footer>
+        <p>&copy; 2023 여행 블로그</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
